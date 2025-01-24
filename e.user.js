@@ -5,8 +5,8 @@
 // @author       Alex Dor
 // @match        https://e-consul.gov.ua/tasks/*
 // @icon         https://e-consul.gov.ua/static/media/uasign.ff4c74d0.svg
-// @updateURL    https://dyoristcode.github.io/e-consule/e.js
-// @downloadURL  https://dyoristcode.github.io/e-consule/e.js
+// @updateURL    https://dyoristcode.github.io/e-consule/e.user.js
+// @downloadURL  https://dyoristcode.github.io/e-consule/e.user.js
 // @grant        unsafeWindow
 // ==/UserScript==
 
