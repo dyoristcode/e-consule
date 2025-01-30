@@ -15,7 +15,7 @@
 
     const documentTemplateId = '161374001';
     const targetUrl = `https://my.e-consul.gov.ua/document-templates/${documentTemplateId}`;
-    const numbersOfWeeksToAdd = 10;
+    const numbersOfWeeksToAdd = 20;
     const originalMaxDateScript = `"maxDate":"(moment, value, step, document) => { const numberWeeks = Number(document?.placeOfVisitInfo?.consularInstitution?.data?.numberWeeks); return moment().add(numberWeeks, 'w')}"`;
     const updatedMaxDateScript = `"maxDate":"(moment, value, step, document) => { const numberWeeks = Number(document?.placeOfVisitInfo?.consularInstitution?.data?.numberWeeks); return moment().add(numberWeeks + ${numbersOfWeeksToAdd}, 'w')}"`;
 
